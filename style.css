@@ -1,5 +1,32 @@
+/*標題*/
 #title
 {
     text-align: center;
     margin-top: 2em
+}
+
+/*遊戲table*/
+#game
+{
+    width: var(--table-width);
+    margin-left: auto;
+    margin-right: 70%;
+}
+
+/*一個格子*/
+td
+{
+    height: 3em;
+}
+
+/*開燈*/
+.on
+{
+    background-color: gold;
+}
+
+/*關燈*/
+.off
+{
+    background-color: black;
 }
