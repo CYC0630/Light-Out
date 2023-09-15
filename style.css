@@ -1,32 +1,33 @@
 /*標題*/
 #title
 {
-    text-align: center;
-    margin-top: 2em
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em
 }
 
 /*遊戲table*/
 #game
 {
-    width: var(--table-width);
-    margin-left: auto;
-    margin-right: 70%;
+	width: var(--table-width);
+	margin-left: auto;
+	margin-right: 60%;
 }
 
 /*一個格子*/
 td
 {
-    height: 3em;
+	height: 6em;
 }
 
 /*開燈*/
 .on
 {
-    background-color: gold;
+	background-color: gold;
 }
 
 /*關燈*/
 .off
 {
-    background-color: black;
+	background-color: black;
 }
